@@ -1,0 +1,19 @@
+button {
+    padding: 10px 20px;
+    background-color: skyblue; /* Coral color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff7f50; 
+  }
+  
+  button:focus {
+    outline: none; 
+  }
+  

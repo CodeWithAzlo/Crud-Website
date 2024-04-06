@@ -1,0 +1,71 @@
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center; 
+    background-image: linear-gradient(to right, #ff0000, #0000ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.input {
+    height: 35px;
+    width: 80%;
+    max-width: 300px; 
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.btn {
+    height: 35px;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.linkage {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: skyblue;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.linkage:hover {
+    background-color: #ff6347;
+}
+
+.update-tag {
+    color: #ff7f50;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+    animation: moveUpDown 2s infinite alternate; 
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
